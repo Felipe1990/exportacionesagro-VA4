@@ -1,15 +1,13 @@
 1) Objetivo:
 
-Explorar el flujo neto de viajeros, para los 35 países con mayor flujo de viajeros (entradas+salidas).
+Descubrir y presentar la tendencia de la participación de las exportaciones agropecuarias en las exportaciones totales y en las exportaciones totales sin combustibles.
 
-
-Adicionalmente, una vez seleccionado un país de interés, en la visualización es posible comparar similitudes entre las entradas y las salidas de viajeros, así como descubrir las tendencias de estas series.
+Comparar la similaridad y la tendencia de las series des la participación de las exportaciones agropecuarias en las exportaciones totales y en las exportaciones totales sin combustibles
 
 2) Instrucciones:
 
--   Abrir este [**link**](https://felipe1990.github.io/tarea3va_migracionColombia/):
--   Con el slider escoger el número de país que se quiere ver en el gráfico de barras del flujo neto (entradas-salidas).
--   El botón "Ver total" permite resetear el gráfico de lineas para ver el total de entradas y salidas.
+-   Abrir este [**link**](https://felipe1990.github.io/exportacionesagro-VA4/):
+-   Con los botones cambiar las series que se van a comparar.
 
 3) Autores:
 
