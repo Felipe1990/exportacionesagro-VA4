@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Expor-Colombia</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body>
+  <h1 align="center">¿Cómo van la exportaciones colombianas del sector agropecuario?</h1>
+  <div class="stream">
+     <p>Tomando las exportaciones totales de Colombia en los últimos años del <a href="https://www.dane.gov.co/index.php/estadisticas-por-tema/comercio-internacional/exportaciones">DANE</a> se construyó la siguiente visualización, la cual representa el comportamiento en el tiempo de las exportaciones totales desde Colombia, separadas según tipo de exportación. En los periodos donde el área es mayor se presenta un mayor valor de las exportaciones y en periodos donde el área se reduce el valor de la exportaciones fue menor.</p>
+    <script src="scripts/main.js" type="text/javascript"></script>
+  </div>
+  <div>
+    Es interesante notar que:
+     <ul>
+       <li>Desde el 2010 y hasta el 2015 hubo un crecimiento en el valor de las exportaciones de combustibles, lo cual hizo que las exportaciones totales se expandieran</li>
+       <li>A mediados del 2008 e inicios del 2016 hubo una gran contracción del valor de las exportaciones, motivada principalmente por la caida en los precios del petróleo</li>
+       <li>Las exportaciones agropecuarias no parecen haber cambiado mucho, a pesar del auge del aguacate, el potencial mayor acceso al campo como resultado de la firma del acuerdo con las FARC y las noticas de expansión del sector agropecuario</li>
+     </ul>
+     <strong>¿Qué tan cierta es esta evidencia inicial de que las exportaciones agrícolas no han mejorado mucho?</strong>
+    </div>
+    <div id="botones">
+        <button type="button" class="normal" onclick=updateNormal()>Valores observados</button>
+        <button type="button" class="index" onclick=updateIndex()>Índice</button> 
+        <button type="button" class="fitted" onclick=updateFitted() >Tendencia</button>  
+    </div>
+  
+  <div class="lineplot">
+     <script src="scripts/line.js" type="text/javascript"></script>
+   </div> 
+  <p>Utilizando los botones en la parte superior es posible ver que, a pesar de que el comportamiento de las exportaciones agropecuarias parecen no tener ninguna tendencia creciente (o decreciente) en los último años; cuando consideramos todas la exportaciones sin combustibles nos damos cuenta de que el sector agropecuario sí está presentando una expansión, de tal manera que es posible afirmar que se encuentra ganando espacio en las exportaciones no tradicionales, lo cual resulta muy interesante.</p>
+</body>
+</html>

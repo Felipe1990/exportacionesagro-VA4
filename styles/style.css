@@ -1,0 +1,46 @@
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:white;
+}
+
+p {
+    text-align: justify;
+
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+li {
+    width: 800px;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 10px 10px 20px;
+    border: 2px solid black;
+  }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+div.tooltip { 
+    position: relative;   
+    width: 90px;          
+    height: 50px;         
+    padding: 2px;       
+    background: lightsteelblue; 
+    border: 2px;    
+    border-radius: 8px;     
+    pointer-events: none;
+    left: 60px;
+    bottom: 500px;
+   
+}
+
